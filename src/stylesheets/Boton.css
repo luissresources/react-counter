@@ -1,0 +1,32 @@
+button {
+  display: block;
+  width: 15rem;
+  color: var(--black);
+  font-weight: 600;
+  padding: 1rem 0;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.button-click {
+  border-color: var(--greenLight);
+}
+
+.button-click:hover {
+  background-color: var(--greenLight);
+  transition: 0.5s;
+}
+
+.button-reset {
+  background-color: var(--red);
+  color: var(--white);
+}
+
+.button-reset:hover {
+  background-color: var(--redLight);
+  transition: 0.5s;
+}

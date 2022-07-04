@@ -1,0 +1,52 @@
+:root {
+  --purpleDark : #2B2E4A;
+  --redLight : #E84545;
+  --red : #903749;
+  --redDark: #53354A;
+  --greenLight: #91C483;
+  --black: #222;
+  --white: #fff;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*, ::before, ::after{
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+  box-sizing: inherit;
+  background-color: var(--purpleDark);
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.logo-container {
+  min-width: min(192rem, 90%);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.logo {
+  width: 15rem;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

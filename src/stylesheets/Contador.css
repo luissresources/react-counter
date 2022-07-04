@@ -1,0 +1,18 @@
+.counter-container {
+    min-width: 80%;
+}
+
+.counter {
+    font-size: 6rem;
+    color: var(--white);
+    padding: 3rem 5rem;
+    background-color: var(--greenLight);
+    border: 1px solid var(--white);
+    border-radius: 5px;
+    margin: 2rem 0;
+}
+
+@keyframes increment-size {
+    from { font-size: 6.0rem; }
+    to   { font-size: 8.0rem; }
+}
